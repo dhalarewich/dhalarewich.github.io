@@ -1,19 +1,19 @@
 // -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
+// @mixin dark-appearance {
+//   filter: invert(1);
+//   img {
+//     filter: invert(1);
 
-    &.ioda { filter: invert(0); }
-  }
-}
+//     &.ioda { filter: invert(0); }
+//   }
+// }
 
-body[a="dark"] { @include dark-appearance; }
+// body[a="dark"] { @include dark-appearance; }
 
 
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-}
+// @media (prefers-color-scheme: dark) {
+//   body[a="auto"] { @include dark-appearance; }
+// }
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -24,7 +24,8 @@ html, body { background: white; }
 html { height: 100%; }
 
 body {
-  color: black;
+  background-color: #313715;
+  color: #E2F9B8;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -35,13 +36,24 @@ body {
 
 .post-meta { text-align: right; }
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+h2, h3, h4, h5, h6 {
+  color: #BBCE8A;
+  margin-top: 3rem;
+}
 
 hr { margin: 2rem 0; }
 
 p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
+
+a {
+  color: #D16014;
+}
+
+a:hover {
+  filter:brightness(60%)
+}
 
 *:target { background: yellow; }
 
