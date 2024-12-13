@@ -5,21 +5,21 @@ entries:
   - title: info
     entries:
       - title: "I am on <a href='https://www.linkedin.com/in/halarewich/'>LinkedIn</a>"
-      - title: "I'm currently the CEO of <a href="https://orbitapps.com/">Orbit Apps</a>"
+      - title: "I'm currently the CEO of <a href='https://orbitapps.com/'>Orbit Apps</a>"
       - title: "My email is my first initial plus my lastname, at gmail.com"
 
   - title: all posts
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: "See archive..."
       show_more_url: archive.html
 
   - title: posts by category
     post_list:
       category: example2
       show_more: true
-      show_more_text: See more posts...
+      show_more_text: "See more posts..."
       show_more_url: example2-archive.html
 
   - title: rss
