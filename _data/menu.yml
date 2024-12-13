@@ -4,10 +4,9 @@
 entries:
   - title: info
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: "I am on <a href='https://www.linkedin.com/in/halarewich/'>LinkedIn</a>"
+      - title: "I'm currently the CEO of <a href="https://orbitapps.com/">Orbit Apps</a>"
+      - title: "My email is my first initial plus my lastname, at gmail.com"
 
   - title: all posts
     post_list:
